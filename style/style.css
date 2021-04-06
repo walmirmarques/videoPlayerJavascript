@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/images/ab-background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'New Tegomin', serif;
+}
+
+.container {
+    position: relative;
+    width: 640px;  
+    margin: 7% auto;
+    color:white;
+}
+
+.container h1{
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.controles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bt {
+    width: 50px;
+    margin-right: 15px;
+    position: relative;
+    top: 100%;
+    transform: translateY(-120%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+.bt:hover{
+    transform: translateY(-140%);
+    transition: 1s;
+}
+
+.menu-disable{
+    display: none;
+}

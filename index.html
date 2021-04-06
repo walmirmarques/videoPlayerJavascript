@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style/style.css">
+    <title>Alter Bridge - Blackbird</title>
+</head>
+<body>
+  <div class="container" onmouseover="showBtn()" onmouseout="hideBtn()">
+      <h1>Blackbird - Alter Bridge</h1>
+      <video class="video" src="assets/video/videoplayback.mp4"></video>
+
+      <div class="controles">
+          <img class="bt" onclick="back()" src="assets/images/15back.png">
+          <img class="bt" onclick="foward()" src="assets/images/15foward.png">
+          <img class="bt" onclick="stop()" src="assets/images/stop.png">
+          <img class="bt" onclick="pause()" src="assets/images/pause.png">
+          <img class="bt" onclick="play()" src="assets/images/play.png">
+      </div>
+  </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
